@@ -6,7 +6,7 @@
     font-family: 'Zen Dots', cursive;
 }
 
-.rps-name {
+h1 {
     transform: rotate(3deg);
     padding-bottom: 35px;
 }
