@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', cursive;
+}
+
+.rps-name {
+    transform: rotate(3deg);
+    padding-bottom: 35px;
+}
+
+main {
+    height: 75%;
+    margin: 0;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(340deg, cyan, grey);
+}
+
+header {
+    background-image: linear-gradient(20deg, grey, cyan);
+    padding: 100px;
+    border-bottom: 7px solid gray;
+    text-align: center;
+    height: 250px;
+}
+
+.second-player-result {
+    display: flex;
+}
+
+.result-text {
+    padding-right: 7px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.logo {
+    max-width: 10%;
+    background-color: gray;
+}
+
+.rps-name-transform {
+    animation: grundi 0.5s 5;
+}
+
+@keyframes grundi {
+    from {
+        transform: rotateZ(0deg)
+    }
+    to {
+        transform: rotateZ(360deg)
+    }
+}

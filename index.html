@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="style.css" rel="stylesheet" />
+    <title>RPS game</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="rps-name">Rock, Paper & Scissors</h1>
+        <div class="rps-img">
+            <img src="mid-icon.png" alt="Logo" class="logo" />
+            <p class="label-game-result"><span class="game-result"></span></p>
+        </div>
+    </header>
+    <main>
+        <section class="left">
+            <p class="first-player">Player 1</p>
+            <button class="btn rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissors">Scissors</button>
+        </section>
+        <section class="right">
+            <p class="message">Player 2</p>
+            <ul class="second-player-result">
+                <p class="label-second-player-choice">Choice = <span class="second-player-choice"></span></p>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
